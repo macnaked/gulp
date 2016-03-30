@@ -1,0 +1,39 @@
+.container {  
+  max-width: 1004px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after,
+.row:after {
+    clear: both;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+
+
+
+.wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+}

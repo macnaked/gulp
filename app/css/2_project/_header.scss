@@ -1,0 +1,9 @@
+$headerHeight: 47px;
+
+.header {
+    min-height: $headerHeight;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #b5b5b5;
+}

@@ -1,0 +1,223 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$menu-main-icon-games-name: 'menu-main__icon-games';
+$menu-main-icon-games-x: 0px;
+$menu-main-icon-games-y: 41px;
+$menu-main-icon-games-offset-x: 0px;
+$menu-main-icon-games-offset-y: -41px;
+$menu-main-icon-games-width: 22px;
+$menu-main-icon-games-height: 15px;
+$menu-main-icon-games-total-width: 66px;
+$menu-main-icon-games-total-height: 56px;
+$menu-main-icon-games-image: '../img/sprite.png';
+$menu-main-icon-games: (0px, 41px, 0px, -41px, 22px, 15px, 66px, 56px, '../img/sprite.png', 'menu-main__icon-games', );
+$menu-main-icon-music-name: 'menu-main__icon-music';
+$menu-main-icon-music-x: 47px;
+$menu-main-icon-music-y: 19px;
+$menu-main-icon-music-offset-x: -47px;
+$menu-main-icon-music-offset-y: -19px;
+$menu-main-icon-music-width: 17px;
+$menu-main-icon-music-height: 17px;
+$menu-main-icon-music-total-width: 66px;
+$menu-main-icon-music-total-height: 56px;
+$menu-main-icon-music-image: '../img/sprite.png';
+$menu-main-icon-music: (47px, 19px, -47px, -19px, 17px, 17px, 66px, 56px, '../img/sprite.png', 'menu-main__icon-music', );
+$menu-main-icon-video-name: 'menu-main__icon-video';
+$menu-main-icon-video-x: 47px;
+$menu-main-icon-video-y: 0px;
+$menu-main-icon-video-offset-x: -47px;
+$menu-main-icon-video-offset-y: 0px;
+$menu-main-icon-video-width: 19px;
+$menu-main-icon-video-height: 19px;
+$menu-main-icon-video-total-width: 66px;
+$menu-main-icon-video-total-height: 56px;
+$menu-main-icon-video-image: '../img/sprite.png';
+$menu-main-icon-video: (47px, 0px, -47px, 0px, 19px, 19px, 66px, 56px, '../img/sprite.png', 'menu-main__icon-video', );
+$message-group-icon-mobile-name: 'message-group__icon-mobile';
+$message-group-icon-mobile-x: 0px;
+$message-group-icon-mobile-y: 0px;
+$message-group-icon-mobile-offset-x: 0px;
+$message-group-icon-mobile-offset-y: 0px;
+$message-group-icon-mobile-width: 47px;
+$message-group-icon-mobile-height: 41px;
+$message-group-icon-mobile-total-width: 66px;
+$message-group-icon-mobile-total-height: 56px;
+$message-group-icon-mobile-image: '../img/sprite.png';
+$message-group-icon-mobile: (0px, 0px, 0px, 0px, 47px, 41px, 66px, 56px, '../img/sprite.png', 'message-group__icon-mobile', );
+$menu-main-icon-games-2x-name: 'menu-main__icon-games@2x';
+$menu-main-icon-games-2x-x: 0px;
+$menu-main-icon-games-2x-y: 82px;
+$menu-main-icon-games-2x-offset-x: 0px;
+$menu-main-icon-games-2x-offset-y: -82px;
+$menu-main-icon-games-2x-width: 44px;
+$menu-main-icon-games-2x-height: 30px;
+$menu-main-icon-games-2x-total-width: 132px;
+$menu-main-icon-games-2x-total-height: 112px;
+$menu-main-icon-games-2x-image: '../img/sprite@2x.png';
+$menu-main-icon-games-2x: (0px, 82px, 0px, -82px, 44px, 30px, 132px, 112px, '../img/sprite@2x.png', 'menu-main__icon-games@2x', );
+$menu-main-icon-music-2x-name: 'menu-main__icon-music@2x';
+$menu-main-icon-music-2x-x: 94px;
+$menu-main-icon-music-2x-y: 38px;
+$menu-main-icon-music-2x-offset-x: -94px;
+$menu-main-icon-music-2x-offset-y: -38px;
+$menu-main-icon-music-2x-width: 34px;
+$menu-main-icon-music-2x-height: 34px;
+$menu-main-icon-music-2x-total-width: 132px;
+$menu-main-icon-music-2x-total-height: 112px;
+$menu-main-icon-music-2x-image: '../img/sprite@2x.png';
+$menu-main-icon-music-2x: (94px, 38px, -94px, -38px, 34px, 34px, 132px, 112px, '../img/sprite@2x.png', 'menu-main__icon-music@2x', );
+$menu-main-icon-video-2x-name: 'menu-main__icon-video@2x';
+$menu-main-icon-video-2x-x: 94px;
+$menu-main-icon-video-2x-y: 0px;
+$menu-main-icon-video-2x-offset-x: -94px;
+$menu-main-icon-video-2x-offset-y: 0px;
+$menu-main-icon-video-2x-width: 38px;
+$menu-main-icon-video-2x-height: 38px;
+$menu-main-icon-video-2x-total-width: 132px;
+$menu-main-icon-video-2x-total-height: 112px;
+$menu-main-icon-video-2x-image: '../img/sprite@2x.png';
+$menu-main-icon-video-2x: (94px, 0px, -94px, 0px, 38px, 38px, 132px, 112px, '../img/sprite@2x.png', 'menu-main__icon-video@2x', );
+$message-group-icon-mobile-2x-name: 'message-group__icon-mobile@2x';
+$message-group-icon-mobile-2x-x: 0px;
+$message-group-icon-mobile-2x-y: 0px;
+$message-group-icon-mobile-2x-offset-x: 0px;
+$message-group-icon-mobile-2x-offset-y: 0px;
+$message-group-icon-mobile-2x-width: 94px;
+$message-group-icon-mobile-2x-height: 82px;
+$message-group-icon-mobile-2x-total-width: 132px;
+$message-group-icon-mobile-2x-total-height: 112px;
+$message-group-icon-mobile-2x-image: '../img/sprite@2x.png';
+$message-group-icon-mobile-2x: (0px, 0px, 0px, 0px, 94px, 82px, 132px, 112px, '../img/sprite@2x.png', 'message-group__icon-mobile@2x', );
+$spritesheet-width: 66px;
+$spritesheet-height: 56px;
+$spritesheet-image: '../img/sprite.png';
+$spritesheet-sprites: ($menu-main-icon-games, $menu-main-icon-music, $menu-main-icon-video, $message-group-icon-mobile, );
+$spritesheet: (66px, 56px, '../img/sprite.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 132px;
+$retina-spritesheet-height: 112px;
+$retina-spritesheet-image: '../img/sprite@2x.png';
+$retina-spritesheet-sprites: ($menu-main-icon-games-2x, $menu-main-icon-music-2x, $menu-main-icon-video-2x, $message-group-icon-mobile-2x, );
+$retina-spritesheet: (132px, 112px, '../img/sprite@2x.png', $retina-spritesheet-sprites, );
+
+/*
+These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+
+The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+*/
+$menu-main-icon-games-group-name: 'menu-main__icon-games';
+$menu-main-icon-games-group: ('menu-main__icon-games', $menu-main-icon-games, $menu-main-icon-games-2x, );
+$menu-main-icon-music-group-name: 'menu-main__icon-music';
+$menu-main-icon-music-group: ('menu-main__icon-music', $menu-main-icon-music, $menu-main-icon-music-2x, );
+$menu-main-icon-video-group-name: 'menu-main__icon-video';
+$menu-main-icon-video-group: ('menu-main__icon-video', $menu-main-icon-video, $menu-main-icon-video-2x, );
+$message-group-icon-mobile-group-name: 'message-group__icon-mobile';
+$message-group-icon-mobile-group: ('message-group__icon-mobile', $message-group-icon-mobile, $message-group-icon-mobile-2x, );
+$retina-groups: ($menu-main-icon-games-group, $menu-main-icon-music-group, $menu-main-icon-video-group, $message-group-icon-mobile-group, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+  It should be used with a "retina group" variable.
+
+The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+
+$icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+
+.icon-home {
+  @include retina-sprite($icon-home-group);
+}
+*/
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+/*
+The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+  This yields the same output as CSS retina template but can be overridden in SCSS
+
+@include retina-sprites($retina-groups);
+*/
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}
